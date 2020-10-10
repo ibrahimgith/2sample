@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ibrahimgith/2sample/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width: device-width, initial-scale=1.0">
+    <title>Shadow Effects</title>
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <body>
+    <div style="Position:fixed; top:0px; left: 0px; border: 5px ridge lightblue; width:300px">
+      <p style='text-shadow: 2px 2px 3px green;color:blue'>1) My name is Iboo :)</p>
+      <!--horizontal + vertical + blur + color!-->
+      <p style="text-shadow: 2px 2px 5px black;color:white">2) A white text with black shado</p>
+      <p style="text-shadow: 0px 0px 3px #FF0000">A black text with red neon glow shadow</p>
+      <br>
+      <p style="text-shadow: 0px 0px 4px #FF0000, 0px 0px 4px #0000FF; color:black">Multiple Shadows: a red and blue neon glow shado</p>
+      <p style="text-shadow: 1px 1px 3px black, 0px 0px 3px blue, 0px 0px 3px darkblue; color:white">A white text with black, blue, and darkblue shadow</p>
+      <p style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; color:yellow">Border around text!</p></div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ibrahimgith/2sample/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      <div style="Position:fixed; top:0px; right:0px; border: 5px ridge lightblue; width:300px">
+        <p style="width:300; height:100; padding:25px; box-shadow: 8px 15px 5px grey; background-color: yellow">A text with a black box-shadow</p>
+      </div>
+  </body>
+</html>
